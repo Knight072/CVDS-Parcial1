@@ -12,4 +12,11 @@ public class RegistryTest {
         Assert.assertEquals(RegisterResult.VALID, result);
     }
     // TODO Complete with more test cases
+    @Test
+    public void validateDeadPerson() {
+        Person person = new Person();
+        person.setAlive(false);
+        RegisterResult result = registry.registerVoter(person);
+        Assert.assertEquals(RegisterResult.DEAD, result);
+    }
 }
