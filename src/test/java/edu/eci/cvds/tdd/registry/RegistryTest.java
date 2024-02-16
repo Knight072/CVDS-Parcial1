@@ -19,4 +19,25 @@ public class RegistryTest {
         RegisterResult result = registry.registerVoter(person);
         Assert.assertEquals(RegisterResult.DEAD, result);
     }
+    @Test
+    public void validateAgePerson(){
+        Person person = new Person();
+        person.setAge(118);
+        RegisterResult result = registry.registerVoter(person);
+        Assert.assertEquals(result, RegisterResult.INVALID_AGE);
+    }
+    @Test
+    public void validateUnderagePerson(){
+        Person person = new Person();
+        person.setAge(17);
+        RegisterResult result = registry.registerVoter(person);
+        Assert.assertEquals(result, RegisterResult.UNDERAGE);
+    }
+    @Test
+    public void validateGenre(){
+        Person person = new Person();
+        person.setGender(Gender.UNIDENTIFIED);
+        RegisterResult result = registry.registerVoter(person);
+        Assert.assertEquals(result, RegisterResult.ZOO_SAMPLE);
+    }
 }
