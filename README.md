@@ -22,6 +22,5 @@
      |0-20   | no aplica descuento  |Correcto  |
      |20 >   | aplica descuento     |Correcto  |
 
-4. edad:
 
 
