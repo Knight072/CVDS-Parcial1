@@ -6,10 +6,9 @@
               negativas      
      |0-18   | edad menor de edad    |Correcto  |
      |19-65  | edad para adulto      |Correcto  |
-     |66-118 | edad para adulto      |Correcto
-              mayor
-     |118 > | no se aceptan edades |Incorrecto|
-              tan altas
+     |66-118 | edad para adulto mayor |Correcto|
+     |118 > | no se aceptan edades tan altas |Incorrecto|
+   
    tarifabase:
      |Número | Clase equivalencia   | Resultado|
      |------ |--------------------  |----------|
