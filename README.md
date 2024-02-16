@@ -9,11 +9,10 @@
       | 118 >  | No se aceptan edades tan altas | Incorrecto |
    
    tarifabase:
-      |Número | Clase equivalencia            | Resultado|
-      |------ |------------------------------ |----------|
-      |0 <    | tarifa negativa para un vuelo |Incorrecto|
-               un vuelo
-     |0      | tarifa gratis        |Correcto  |
+      |Número   | Clase equivalencia              | Resultado   |
+      | ------  | ------------------------------  | ----------  |
+      |0 <      | tarifa negativa para un vuelo   | Incorrecto  |
+      |0        | tarifa gratis        |Correcto  |
      |0 >    | tarifa válida para   |Correcto  |
                un vuelo
    diasantelacion:
