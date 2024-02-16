@@ -3,7 +3,8 @@
      |Número | Clase equivalencia   | Resultado|
      |------ |--------------------  |----------|
      |0 <    | no se aceptan edades |Incorrecto|
-              negativas      
+              negativas
+     |------ |--------------------  |----------|
      |0-18   | edad menor de edad    |Correcto  |
      |19-65  | edad para adulto      |Correcto  |
      |66-118 | edad para adulto mayor |Correcto|
