@@ -12,9 +12,9 @@
       |Número   | Clase equivalencia              | Resultado   |
       | ------  | ------------------------------  | ----------  |
       |0 <      | tarifa negativa para un vuelo   | Incorrecto  |
-      |0        | tarifa gratis        |Correcto  |
-     |0 >    | tarifa válida para   |Correcto  |
-               un vuelo
+      |0        | tarifa gratis                   | Correcto    |
+      |0 >      | tarifa válida para un vuelo     | Correcto    |
+   
    diasantelacion:
      |Número | Clase equivalencia   | Resultado|
      |------ |--------------------  |----------|
