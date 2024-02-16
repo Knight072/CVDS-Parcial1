@@ -2,7 +2,7 @@
 2. edad:
 | Número | Clase de Equivalencia          | Resultado  |
 | ------ | ------------------------------ | ---------- |
-| 0 <    | No se aceptan edades negativas | Incorrecto, negativas |
+| 0 <    | No se aceptan edades negativas | Incorrecto |
 | 0-18   | Edad menor de edad             | Correcto   |
 | 19-65  | Edad para adulto               | Correcto   |
 | 66-118 | Edad para adulto mayor         | Correcto   |
