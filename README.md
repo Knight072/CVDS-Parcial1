@@ -1,6 +1,6 @@
 1. Se arroja la excepción cuando entra como parámetro una edad negativa, cuando los días de antelación tienen un valor negativo y, además, se ingresa una tarifa base menor a cero.
 2. edad:
-     | Número | Clase de Equivalencia          | Resultado  |
+| Número | Clase de Equivalencia          | Resultado  |
 | ------ | ------------------------------ | ---------- |
 | 0 <    | No se aceptan edades negativas | Incorrecto, negativas |
 | 0-18   | Edad menor de edad             | Correcto   |
