@@ -1,20 +1,24 @@
 package edu.eci.cvds.tdd;
 
+import edu.eci.cvds.tdd.registry.AppException;
+
 /**
  * Hello world!
  *
  */
-public class App 
-{
+public class App extends Exception {
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
     }
 
-    public static boolean correctIncorrectAge(int age){
-       if(age < 0 || age > 17){
+    public static boolean correctIncorrectAge(int age) throws Exception {
+       if(age > 17){
             return false;
         }
-        else return age <= 17;
+       else if(age < 0){
+           throw new Exception("No deberia ingresar una edad negativa");
+       }
+       else return age <= 17;
     }
 }

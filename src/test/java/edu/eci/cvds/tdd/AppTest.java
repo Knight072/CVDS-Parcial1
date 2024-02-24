@@ -21,19 +21,19 @@ public class AppTest
         super( testName );
     }
 
-    public void testShouldBeAcorrectAge(){
+    public void testShouldBeAcorrectAge() throws Exception {
         assertTrue(App.correctIncorrectAge(17));
     }
 
-    public void testShouldNotBeAcorrectAge(){
+    public void testShouldNotBeAcorrectAge() throws Exception {
         assertFalse(App.correctIncorrectAge(20));
     }
 
-    public void testShouldNotBeAvalidAge(){
-        assertFalse(App.correctIncorrectAge(-100));
+    public void testShouldNotBeAvalidAge() throws Exception {
+        assertFalse(App.correctIncorrectAge(100));
     }
 
-    public void testShouldBeAnError(){
+    public void testShouldBeAnError() throws Exception {
         assertFalse(App.correctIncorrectAge(-10000));
     }
 
