@@ -1,7 +1,5 @@
 package edu.eci.cvds.tdd;
 
-import edu.eci.cvds.tdd.registry.AppException;
-
 /**
  * Hello world!
  *
