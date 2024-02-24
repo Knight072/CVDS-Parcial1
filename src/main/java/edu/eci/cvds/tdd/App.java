@@ -10,4 +10,11 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
+    public static boolean correctIncorrectAge(int age){
+       if(age < 0 || age > 17){
+            return false;
+        }
+        else return age <= 17;
+    }
 }
