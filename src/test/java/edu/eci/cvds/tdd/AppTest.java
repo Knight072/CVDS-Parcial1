@@ -24,6 +24,9 @@ public class AppTest
     public void testShouldBeAcorrectAge() throws Exception {
         assertTrue(App.correctIncorrectAge(17));
     }
+    public void testShouldBeAcorrectAge2() throws Exception {
+        assertTrue(App.correctIncorrectAge(0));
+    }
 
     public void testShouldNotBeAcorrectAge() throws Exception {
         assertFalse(App.correctIncorrectAge(20));
@@ -35,7 +38,7 @@ public class AppTest
 
     public void testShouldBeAnError(){
         try{
-            App.correctIncorrectAge(-10000);
+            assertFalse(App.correctIncorrectAge(-10000));
         }catch(Exception e){
             String expectedMessage = "No deberia ingresar una edad negativa";
             String actualMessage = e.getMessage();

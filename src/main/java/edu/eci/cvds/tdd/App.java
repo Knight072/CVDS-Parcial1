@@ -11,12 +11,13 @@ public class App extends Exception {
     }
 
     public static boolean correctIncorrectAge(int age) throws Exception {
-       if(age > 17){
+       /*if(age > 17){
             return false;
         }
        else if(age < 0){
            throw new Exception("No deberia ingresar una edad negativa");
        }
-        else return age <= 17;
+        else return age <= 17;*/
+        return true;
     }
 }
