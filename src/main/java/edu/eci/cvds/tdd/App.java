@@ -19,6 +19,6 @@ public class App extends Exception {
        else if(age < 0){
            throw new Exception("No deberia ingresar una edad negativa");
        }
-       else return age <= 17;
+        else return age <= 17;
     }
 }
